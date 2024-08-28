@@ -124,7 +124,33 @@ function finalprocess() {
     document.getElementById('inputContainer').classList.add('hidden');
     document.getElementById('linkButton').classList.remove('hidden');
     document.getElementById('YourResult').classList.remove('hidden');
+    
+    // 画像セットの名前をリザルト画面に表示
+    displayImageSetName();
 }
+
+// 画像セットの名前をリザルト画面に表示する
+function displayImageSetName() {
+    const imageSetNameElement = document.getElementById('imageSetName');
+    let setName = '';
+
+    // 現在の画像セットに応じた名前を取得
+    switch (currentImageSet) {
+        case imageSets.set1:
+            setName = 'セットA';
+            break;
+        case imageSets.set2:
+            setName = 'セットB';
+            break;
+        default:
+            setName = 'セット0';
+            break;
+    }
+
+    imageSetNameElement.textContent = `${setName}`;
+    imageSetNameElement.style.display = 'block'; // 要素を表示
+}
+
 
 // ストップウォッチのリセット
 function resetStopwatch() {
@@ -198,7 +224,7 @@ function submitAnswer() {
 function jamptolink() {
     document.getElementById('linkButton').addEventListener('click', function() {
         // ここに遷移したいURLを指定
-        window.open('aaaaa', '_blank');
+        window.open(' ', '_blank');
     });
 }
 
