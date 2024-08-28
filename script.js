@@ -198,7 +198,7 @@ function submitAnswer() {
 function jamptolink() {
     document.getElementById('linkButton').addEventListener('click', function() {
         // ここに遷移したいURLを指定
-        window.open('https://sample.link', '_blank');
+        window.open('aaaaa', '_blank');
     });
 }
 
