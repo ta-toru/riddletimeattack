@@ -224,7 +224,7 @@ function submitAnswer() {
 function jamptolink() {
     document.getElementById('linkButton').addEventListener('click', function() {
         // ここに遷移したいURLを指定
-        window.open(' ', '_blank');
+        window.open('https://twitter.com/intent/tweet?text=%23%E4%BE%8B%E5%A4%96%E8%AC%8E%20%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%9F%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AF%E3%80%8CRiddle%20Time%20Attack%E3%80%8D%E3%82%92%E5%85%88%E8%A1%8C%E4%BD%93%E9%A8%93%E3%81%97%E3%81%9F%EF%BC%81%0A%0A%E3%82%BB%E3%83%83%E3%83%88%E9%81%B8%E6%8A%9E%EF%BC%9A%E3%82%BB%E3%83%83%E3%83%88(A%E3%81%8BB%E3%81%8B%E3%81%AE%E3%81%A9%E3%81%A1%E3%82%89%E3%81%8B%E8%A8%98%E5%85%A5)%0A%E3%82%AF%E3%83%AA%E3%82%A2%E3%82%BF%E3%82%A4%E3%83%A0%EF%BC%9A(%E3%81%93%E3%81%93%E3%81%AB%E8%A8%98%E5%85%A5)%0A%E3%83%91%E3%82%B9%E5%9B%9E%E6%95%B0%EF%BC%9A(%E3%81%93%E3%81%93%E3%81%AB%E8%A8%98%E5%85%A5)%E5%9B%9E%0A%E3%81%A7%E3%81%97%E3%81%9F%EF%BC%81%EF%BC%81%0A%0A%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E7%B5%90%E6%9E%9C%E3%82%92%E5%85%B1%E6%9C%89%E3%81%97%E3%81%A6%E7%AB%B6%E3%81%84%E5%90%88%E3%81%8A%E3%81%86%EF%BC%81%0A%23RiddleTA&openExternalBrowser=1', '_blank');
     });
 }
 
